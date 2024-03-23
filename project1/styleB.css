@@ -1,0 +1,28 @@
+.p-letter {
+  display: flex;
+  flex-direction: row;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.letter {
+  width: 100px;
+  height: 150px;
+  font-size: 40px;
+  display: grid;
+  border-left: 10px dotted #d0d0ff;
+  background-color: #eeeff2;
+  margin-left: 10px;
+}
+
+.letter:hover {
+  color: gold;
+  background-color: yellow;
+}
+
+#l3 {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+}
